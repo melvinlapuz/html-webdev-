@@ -1,0 +1,64 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url(bg1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+
+}
+.HEADER{
+    position: fixed;
+    padding-right: 100vw;
+}
+.brand{
+    font-family: "madimi one", sans-serif;
+    color: #ef5555;
+    font-size: 4vh;
+    padding-left: 2vw;
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+}
+.nav-link{
+    position: fixed;
+    top: 4.5vh;
+    left: 60vw;
+    display: inline-block;
+    vertical-align: top;
+}
+.nav{
+    font-family: "gamja flower",sans-serif;
+    margin: 2vw;
+    font-size: 2vw;
+    text-decoration: none;
+    color: #f93e3e;
+}
+.nav:hover{
+    text-decoration: underline;
+}
+.button{
+    display: inline-block;
+    vertical-align: top;
+    position: fixed;
+    left: 88vw;
+    top: 5vh;
+    height: 5vh;
+    width: 6vw;
+    border-radius: 10px;
+    font-family: "gamja flower", sans-serif;
+    background-color: white;
+    color: white;
+    font-size: 1vw;
+    transition: ease-out 0.7s;
+    color: transparent;
+    -webkit-background-clip: text;
+    border-color: #ef5555;
+}
+.button:hover{
+    box-shadow: inset 200px 0 0 0 #ff0404;
+    transition-duration: 1;
+    color: black;
+}
